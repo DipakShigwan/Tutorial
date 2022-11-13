@@ -1,0 +1,12 @@
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\bin\Debug\net6.0\Tutorial.Models.deps.json
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\bin\Debug\net6.0\Tutorial.Models.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\bin\Debug\net6.0\Tutorial.Models.pdb
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\obj\Debug\net6.0\Tutorial.Models.csproj.AssemblyReference.cache
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\obj\Debug\net6.0\Tutorial.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\obj\Debug\net6.0\Tutorial.Models.AssemblyInfoInputs.cache
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\obj\Debug\net6.0\Tutorial.Models.AssemblyInfo.cs
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\obj\Debug\net6.0\Tutorial.Models.csproj.CoreCompileInputs.cache
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\obj\Debug\net6.0\Tutorial.Models.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\obj\Debug\net6.0\refint\Tutorial.Models.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\obj\Debug\net6.0\Tutorial.Models.pdb
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.Models\obj\Debug\net6.0\ref\Tutorial.Models.dll

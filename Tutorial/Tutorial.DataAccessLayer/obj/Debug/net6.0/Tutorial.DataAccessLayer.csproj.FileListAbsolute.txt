@@ -1,0 +1,15 @@
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\bin\Debug\net6.0\Tutorial.DataAccessLayer.deps.json
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\bin\Debug\net6.0\Tutorial.DataAccessLayer.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\bin\Debug\net6.0\Tutorial.DataAccessLayer.pdb
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\bin\Debug\net6.0\Tutorial.Models.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\bin\Debug\net6.0\Tutorial.Models.pdb
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\Tutorial.DataAccessLayer.csproj.AssemblyReference.cache
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\Tutorial.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\Tutorial.DataAccessLayer.AssemblyInfoInputs.cache
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\Tutorial.DataAccessLayer.AssemblyInfo.cs
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\Tutorial.DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\Tutorial.DataAccessLayer.csproj.CopyComplete
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\Tutorial.DataAccessLayer.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\refint\Tutorial.DataAccessLayer.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\Tutorial.DataAccessLayer.pdb
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial.DataAccessLayer\obj\Debug\net6.0\ref\Tutorial.DataAccessLayer.dll

@@ -281,3 +281,7 @@ F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial\obj\Debug\net6.0\refint\T
 F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial\obj\Debug\net6.0\Tutorial.pdb
 F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial\obj\Debug\net6.0\Tutorial.genruntimeconfig.cache
 F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial\obj\Debug\net6.0\ref\Tutorial.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial\bin\Debug\net6.0\Tutorial.DataAccessLayer.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial\bin\Debug\net6.0\Tutorial.Models.dll
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial\bin\Debug\net6.0\Tutorial.DataAccessLayer.pdb
+F:\MVC APPlication\Tutorial\Tutorial\Tutorial\Tutorial\bin\Debug\net6.0\Tutorial.Models.pdb

@@ -3213,6 +3213,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Tutorial.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "Tutorial.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tutorial.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tutorial.DataAccessLayer.dll": {}
+        }
+      },
+      "Tutorial.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Tutorial.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tutorial.Models.dll": {}
+        }
       }
     }
   },
@@ -9977,6 +10003,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Tutorial.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../Tutorial.DataAccessLayer/Tutorial.DataAccessLayer.csproj",
+      "msbuildProject": "../Tutorial.DataAccessLayer/Tutorial.DataAccessLayer.csproj"
+    },
+    "Tutorial.Models/1.0.0": {
+      "type": "project",
+      "path": "../Tutorial.Models/Tutorial.Models.csproj",
+      "msbuildProject": "../Tutorial.Models/Tutorial.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9984,7 +10020,9 @@
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
+      "Tutorial.DataAccessLayer >= 1.0.0",
+      "Tutorial.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10013,7 +10051,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\MVC APPlication\\Tutorial\\Tutorial\\Tutorial\\Tutorial.DataAccessLayer\\Tutorial.DataAccessLayer.csproj": {
+              "projectPath": "F:\\MVC APPlication\\Tutorial\\Tutorial\\Tutorial\\Tutorial.DataAccessLayer\\Tutorial.DataAccessLayer.csproj"
+            },
+            "F:\\MVC APPlication\\Tutorial\\Tutorial\\Tutorial\\Tutorial.Models\\Tutorial.Models.csproj": {
+              "projectPath": "F:\\MVC APPlication\\Tutorial\\Tutorial\\Tutorial\\Tutorial.Models\\Tutorial.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
