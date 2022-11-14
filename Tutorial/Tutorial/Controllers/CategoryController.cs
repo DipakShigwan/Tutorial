@@ -1,21 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Tutorial.Data;
+using Tutorial.DataAccessLayer.Infrastructure.IRepository;
 using Tutorial.Models;
 
 namespace Tutorial.Controllers
 {
     public class CategoryController : Controller
     {
-        private ApplicationDBContext _context;
+        private IUnitOfWork _unitOfWork;
 
-        public CategoryController(ApplicationDBContext context)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Category> categories = _context.Categories;    
+            IEnumerable<Category> categories = _unitOfWork.Category.GetAll();    
             return View(categories);
         }
 
@@ -30,8 +31,8 @@ namespace Tutorial.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Add(category);
-                _context.SaveChanges();
+                _unitOfWork.Category.Add(category);
+                _unitOfWork.save();
                 TempData["Success"] = "Category Created Successfully !";
                 return RedirectToAction("Index");
             }
@@ -45,7 +46,7 @@ namespace Tutorial.Controllers
             {
                 return NotFound();
             }
-            var result = _context.Categories.Find(id);
+            var result = _unitOfWork.Category.GetT(x=>x.id==id);
             if(result == null)
             {
                 return NotFound();
@@ -59,8 +60,8 @@ namespace Tutorial.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Update(category);
-                _context.SaveChanges();
+                _unitOfWork.Category.update(category);
+                _unitOfWork.save();
                 TempData["Success"] = "Category Modified Successfully !";
                 return RedirectToAction("Index");
             }
@@ -75,8 +76,8 @@ namespace Tutorial.Controllers
             {
                 return NotFound();
             }
-            var result = _context.Categories.Find(id);
-            if(result == null)
+            var result = _unitOfWork.Category.GetT(x => x.id == id);
+            if (result == null)
             {
                 return NotFound();
 
@@ -93,15 +94,15 @@ namespace Tutorial.Controllers
                 return NotFound();
 
             }
-            var result = _context.Categories.Find(id);
+            var result = _unitOfWork.Category.GetT(x => x.id == id);
             if (result == null)
             {
                 TempData["Error"] = "Category Not Found !";
                 return NotFound();
 
             }
-            _context.Categories.Remove(result);
-            _context.SaveChanges();
+            _unitOfWork.Category.Delete(result);
+            _unitOfWork.save();
             TempData["Success"] = "Category Deleted Successfully !";
             return RedirectToAction("Index");
         }
